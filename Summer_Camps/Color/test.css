@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Header Styling */
+  header {
+    background: linear-gradient(135deg, #99ce2e, #995724);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+    color: #ccc;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .logo {
+    flex: 0 0 auto;
+  }
+  
+  /* Centering the Menu */
+  nav {
+    display: flex;
+    justify-content: center; /* لمركز قائمة التنقل في الوسط */
+  }
+  
+  .mainMenu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 1.5rem;
+    padding: 0;
+  }
+  
+  .mainMenu > li {
+    position: relative;
+  }
+  
+  .mainMenu > li > a {
+    color: #ccc;
+    text-decoration: none;
+    padding: 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .mainMenu > li > a:hover {
+    color: #007bff;
+  }
+  
+  /* Submenu Styling */
+  .mainMenu li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    padding: 10px 0;
+    margin: 0;
+    min-width: 200px;
+    border-radius: 5px;
+    z-index: 100;
+  }
+  
+  .mainMenu li ul li {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .mainMenu li ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .mainMenu li ul li a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Show submenu on hover */
+  .mainMenu > li:hover > ul {
+    display: block;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .mainMenu {
+        flex-direction: column;
+    }
+  }
+
+
+.test{
+    padding: 40px 0;
+    background: linear-gradient(135deg, #071952, #37B7C3);
+}
+.test1{
+    padding: 40px 0;
+    background: linear-gradient(195deg, #37B7C3, #201658);
+}
+.test2{
+    padding: 40px 0;
+    background: linear-gradient(195deg, #551de4, #094b7a);
+}
+.test3{
+    padding: 40px 0;
+    background: linear-gradient(195deg, #ACBCFF, #B799FF);
+}
+.test4{
+    padding: 40px 0;
+    background: linear-gradient(195deg, #9B91F0, #36a8d1);
+}
+.test5{
+    padding: 40px 0;
+    background: linear-gradient(195deg, #1c0db8, #117bcb);
+}

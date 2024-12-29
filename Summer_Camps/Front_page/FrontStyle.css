@@ -1,0 +1,587 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Header Styling */
+  header {
+    background: linear-gradient(135deg, #2e81ce, #201658);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+    color: #ccc;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .logo {
+    flex: 0 0 auto;
+    color: #ffffff;
+  }
+  
+  /* Centering the Menu */
+  nav {
+    display: flex;
+    justify-content: center; /* لمركز قائمة التنقل في الوسط */
+  }
+  
+  .mainMenu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 1.5rem;
+    padding: 0;
+  }
+  
+  .mainMenu > li {
+    position: relative;
+  }
+  
+  .mainMenu > li > a {
+    color: #ccc;
+    text-decoration: none;
+    padding: 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .mainMenu > li > a:hover {
+    color: #007bff;
+  }
+  
+  /* Submenu Styling */
+  .mainMenu li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    padding: 10px 0;
+    margin: 0;
+    min-width: 200px;
+    border-radius: 5px;
+    z-index: 100;
+  }
+  
+  .mainMenu li ul li {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .mainMenu li ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .mainMenu li ul li a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Show submenu on hover */
+  .mainMenu > li:hover > ul {
+    display: block;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .mainMenu {
+        flex-direction: column;
+    }
+  }
+  
+  /* General Dashboard Preview Styling */
+  .dashboard-preview {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    overflow: hidden;
+  }
+  
+  
+  
+  /* Adding background image with opacity through ::before */
+  .dashboard-preview .event::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/Imgs/winter_capms_img.jpg'); /* مسار الصورة */
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9; /* جعل الخلفية الثابتة أكثر وضوحًا */
+    z-index: 0; /* جعل الخلفية الثابتة في أسفل الطبقات */
+    border-radius: 20px; /* نفس الحواف الدائرية للعنصر */
+  }
+  
+  /* Event Banner Container */
+  .dashboard-preview .event {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+    overflow: hidden;
+  }
+  
+  /* Text content styling to be above the background */
+  .dashboard-preview .event .hero, .dashboard-preview .event .cta-button {
+    position: relative;
+    z-index: 2; /* بقاء النص والأزرار في الطبقة الأمامية */
+  }
+  
+  
+  /* Background Video Styling */
+  .background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+    opacity: 0.6;
+  }
+  
+  /* General Section Styling */
+  .dashboard-preview, .camp-previews, .location-section, .staff-section {
+    position: relative;
+    overflow: hidden;
+    color: #fff; /* لون النص بحيث يكون واضحًا فوق الفيديو */
+    padding: 60px 20px; /* تعديل padding لكل قسم حسب الرغبة */
+    z-index: 2; /* لتكون العناصر الأمامية فوق الفيديو */
+  }
+  
+  .dashboard-preview .event, .camp-previews h2, .location-details, .staff-section h2 {
+    position: relative;
+    z-index: 2; /* بقاء المحتوى الأمامي فوق الفيديو */
+  }
+  
+  /* Hero Section for Banner Text */
+  .dashboard-preview .hero h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 0;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+  }
+  
+  .dashboard-preview .hero p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #f1f1f1;
+  }
+  
+  .dashboard-preview .hero p:last-of-type {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Call-to-Action Button */
+  .dashboard-preview .cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #ffcc00;
+    color: #333;
+    font-weight: bold;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .dashboard-preview .cta-button:hover {
+    background-color: #1e77f4;
+    color: #f0f4f8;
+    transform: translateY(-2px);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .dashboard-preview .hero h1 {
+        font-size: 2rem;
+    }
+    .dashboard-preview .hero p {
+        font-size: 1rem;
+    }
+    .dashboard-preview .cta-button {
+        font-size: 0.9rem;
+        padding: 10px 20px;
+    }
+  }
+  
+  /* General Styling for the Camp Previews Section */
+  .camp-previews {
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  
+  .camp-previews h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 40px;
+  }
+  
+  /* Camp Cards Container */
+  .camp-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  /* Individual Camp Card Styling */
+  .camp-card {
+    background-color: #fff;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: left;
+  }
+  
+  .camp-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Camp Card Image */
+  .camp-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+  
+  .camp-card:hover img {
+    transform: scale(1.05);
+  }
+  
+  /* Camp Card Content */
+  .camp-card h3 {
+    font-size: 1.5rem;
+    color: #0066cc;
+    margin: 16px 16px 8px;
+  }
+  
+  .camp-card p {
+    font-size: 1rem;
+    color: #555;
+    margin: 0 16px 16px;
+    line-height: 1.6;
+  }
+  
+  /* Learn More Button */
+  .camp-card .learn-more {
+    display: inline-block;
+    margin: 0 16px 16px;
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .camp-card .learn-more:hover {
+    background-color: #ff9900;
+  }
+  
+  /* Responsive Layout */
+  @media (max-width: 768px) {
+    .camp-cards {
+        gap: 16px;
+    }
+    .camp-card {
+        max-width: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .camp-previews h2 {
+        font-size: 1.8rem;
+    }
+    .camp-card h3 {
+        font-size: 1.3rem;
+    }
+    .camp-card p {
+        font-size: 0.9rem;
+    }
+  }
+  
+  /* General Styling for the Location Section */
+  .location-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 60px 20px;
+    background-color: #f0f4f8;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  
+  /* Location Details Styling */
+  .location-details {
+    flex: 1 1 300px;
+    max-width: 500px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .location-details h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+  
+  .location-details ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .location-details li {
+    font-size: 1rem;
+    color: #555;
+    padding: 8px 0;
+  }
+  
+  /* Location Map Styling */
+  .location-map {
+    flex: 1 1 300px;
+    max-width: 500px;
+    position: relative;
+    height: 300px;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #ccc;
+  }
+  
+  /* Staff Section Styling */
+  .staff-section {
+    padding: 60px 20px;
+    }
+  
+  .staff-section h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .staff-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .staff-card {
+    background-color: #fff;
+    width: 100%;
+    max-width: 280px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .staff-card img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .staff-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .staff-card .staff-name {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 16px;
+  }
+  
+  .staff-card .staff-role {
+    font-size: 1rem;
+    color: #555;
+    margin: 8px 0;
+  }
+  
+  .staff-card .staff-description {
+    padding: 0 16px 16px;
+    font-size: 0.9rem;
+    color: #777;
+    line-height: 1.5;
+  }
+  
+  /* Footer Styling */
+      footer {
+        background: linear-gradient(195deg, #1da5e4, #093c7a);
+      color: #fff;
+      padding: 40px 0;
+      font-family: Arial, sans-serif;
+  }
+  
+  .footer-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: flex-start;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 25px;
+  }
+  
+  .footer-section {
+      flex: 1 1 200px;
+      margin-bottom: 20px;
+  }
+  
+  .footer-section h4 {
+      font-size: 18px;
+      margin-bottom: 15px;
+      color: #ffd700;
+  }
+  
+  .footer-section ul {
+      list-style: none;
+      padding: 0;
+  }
+  
+  .footer-section ul li {
+      margin-bottom: 10px;
+  }
+  
+  .footer-section ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 14px;
+      transition: color 0.3s;
+  }
+  
+  .footer-section ul li a:hover {
+      color: #ffd700; 
+  }
+  
+  .footer-section p {
+      margin: 5px 0;
+      font-size: 13px;
+  }
+  
+  
+  .policies ul {
+      padding: 0;
+      list-style: none;
+  }
+  
+  
+  .footer-bottom {
+      text-align: center;
+      margin-top: 20px;
+      border-top: 1px solid #fff;
+      padding-top: 20px;
+      font-size: 14px;
+      color: #ccc;
+  }
+  
+  .footer-bottom p {
+      margin: 0;
+  }
+  
+  
+  .social-media {
+      text-align: center;
+      flex: 1;
+  }
+  
+  .social-icons {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 10px;
+  }
+  
+  .social-icons a {
+      color: #fff;
+      font-size: 24px;
+      text-decoration: none;
+      transition: transform 0.3s, color 0.3s;
+  }
+  
+  .social-icons a:hover {
+      color: #ffd700; 
+      transform: scale(1.2);
+  }
+  
+  
+  
+  @media (max-width: 768px) {
+      .footer-container {
+          flex-direction: column; 
+          align-items: center;
+          padding: 0 20px;
+      }
+  
+      .footer-section {
+          text-align: center;
+          margin-bottom: 20px;
+          flex: 1 1 100%; 
+      }
+  
+      .footer-section ul li {
+          margin-bottom: 8px;
+      }
+  
+      .social-icons {
+          gap: 10px;
+      }
+  }
+  
+  @media (max-width: 480px) { 
+      footer {
+          padding: 30px 0;
+      }
+  
+      .footer-section h4 {
+          font-size: 16px;
+      }
+  
+      .footer-section ul li a {
+          font-size: 13px;
+      }
+  
+      .social-icons a {
+          font-size: 20px; 
+      }
+  
+      .footer-bottom {
+          font-size: 12px;
+      }
+  }

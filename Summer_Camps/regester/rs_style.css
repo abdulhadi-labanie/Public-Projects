@@ -1,0 +1,203 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #e0f7fa, #ffffff); /* خلفية متدرجة */
+    color: #333;
+  }
+  
+
+/* Header Styling */
+header {
+  background: linear-gradient(135deg, #2e81ce, #201658);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+  color: #ccc;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.logo {
+  flex: 0 0 auto;
+}
+
+/* Centering the Menu */
+nav {
+  display: flex;
+  justify-content: center; /* لمركز قائمة التنقل في الوسط */
+}
+
+.mainMenu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  font-size: 1.5rem;
+  padding: 0;
+}
+
+.mainMenu > li {
+  position: relative;
+}
+
+.mainMenu > li > a {
+  color: #ccc;
+  text-decoration: none;
+  padding: 10px;
+  transition: color 0.3s ease;
+}
+
+.mainMenu > li > a:hover {
+  color: #007bff;
+}
+
+/* Submenu Styling */
+.mainMenu li ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  padding: 10px 0;
+  margin: 0;
+  min-width: 200px;
+  border-radius: 5px;
+  z-index: 100;
+}
+
+.mainMenu li ul li {
+  padding: 0;
+  margin: 0;
+}
+
+.mainMenu li ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #333;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.mainMenu li ul li a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Show submenu on hover */
+.mainMenu > li:hover > ul {
+  display: block;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .mainMenu {
+      flex-direction: column;
+  }
+}
+/*  end header  */
+
+  .registration-container {
+    max-width: 850px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+  }
+  
+
+  h1 {
+    text-align: center;
+    font-size: 32px;
+    color: #ffffff;
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+
+  p {
+    margin: 12px 0;
+    font-size: 16px;
+    line-height: 1.7;
+  }
+  
+
+  .camp {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    background: #f9fbe7; 
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .camp:hover {
+    background-color: #e8f5e9;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  h2 {
+    font-size: 22px;
+    color: #004d40;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+
+  h2::before {
+    content: '🏕️';
+    font-size: 24px;
+  }
+  
+  .registration-link {
+    color: #00796b;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .registration-link:hover {
+    text-decoration: underline;
+    color: #004d40;
+  }
+  
+  .deadline {
+    font-size: 14px;
+    color: #757575;
+    font-style: italic;
+    margin-top: 8px;
+  }
+  
+  hr {
+    margin: 30px 0;
+    border: none;
+    border-top: 1px dashed #ddd;
+  }
+  
+  a {
+    transition: color 0.3s ease;
+  }
+  
+  .camp:hover h2 {
+    color: #00796b;
+  }
+  

@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camp Registration Form</title>
+    <link rel="stylesheet" href="/regester/rs_Cmps/summer_rs.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Abdulhadi</h1>
+            </div>
+            <nav>
+                <ul class="mainMenu">
+                    <li><a href="/summer theme/summer.html">Summer</a></li>
+                    <li><a href="/Lunta/index.html">Luntaa</a></li>
+                    <li><a href="/regester/regester.html">Registration</a></li>
+                    <li><a href="/Color/test.html">Värit</a></li>
+            </nav>
+        </div>
+    </header>
+
+
+    <div class="container">
+        <div id="errorBox" style="display: none;"></div>
+        <form id="campForm" class="form-card">
+            <div class="form-header">
+                <h1>Camp Registration Form</h1>
+            </div>
+
+            <!-- Basic Information -->
+            <section class="form-section">
+                <h2>Basic Information</h2>
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required>
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="startDate">Camp Start Date *</label>
+                        <input type="date" id="startDate" name="startDate" required>
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="endDate">Camp End Date *</label>
+                        <input type="date" id="endDate" name="endDate" required>
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <label>Camp Type *</label>
+                        <div class="radio-group">
+                            <label class="radio-label">
+                                <input type="radio" name="campType" value="day" required>
+                                Day camp (08:00 - 18:00)
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="campType" value="overnight">
+                                Over night camp
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Travel Information -->
+            <section class="form-section">
+                <h2>Travel Information</h2>
+                <div class="form-grid">
+                    <!-- Arrival Flight Field -->
+                    <div class="form-group">
+                        <label for="arrivalFlight">ARRIVAL: Flight number and arrival time - Helsinki-Vantaa Airport</label>
+                        <!-- Removed 'required' to make this field optional -->
+                        <input type="text" id="arrivalFlight" name="arrivalFlight">
+                    </div>
+                    <!-- Arrival Transfer Option -->
+                    <div class="form-group">
+                        <label>ARRIVAL: Need transfer from the airport</label>
+                        <div class="radio-group">
+                            <!-- Removed 'required' from the radio inputs -->
+                            <label class="radio-label">
+                                <input type="radio" name="arrivalTransfer" value="yes">Yes</label>
+                            <label class="radio-label">
+                                <input type="radio" name="arrivalTransfer" value="no">No</label>
+                            <label class="radio-label">
+                                <input type="radio" name="arrivalTransfer" value="unknown">We do not know yet</label>
+                        </div>
+                    </div>
+                    <!-- Departure Flight Field -->
+                    <div class="form-group">
+                        <label for="departureFlight">DEPARTURE: Flight number and departure time - Helsinki-Vantaa Airport</label>
+                        <!-- Removed 'required' to make this field optional -->
+                        <input type="text" id="departureFlight" name="departureFlight">
+                    </div>
+                    <!-- Departure Transfer Option -->
+                    <div class="form-group">
+                        <label>DEPARTURE: Need transfer to the airport</label>
+                        <div class="radio-group">
+                            <!-- Removed 'required' from the radio inputs -->
+                            <label class="radio-label">
+                                <input type="radio" name="departureTransfer" value="yes">Yes</label>
+                            <label class="radio-label">
+                                <input type="radio" name="departureTransfer" value="no">No</label>
+                            <label class="radio-label">
+                                <input type="radio" name="departureTransfer" value="unknown">We do not know yet</label>
+                        </div>
+                    </div>
+                </div>
+            </section>          
+
+            <!-- Camper Information -->
+            <section class="form-section">
+                <h2>Camper Information</h2>
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="firstName">First Name (as in passport) *</label>
+                        <input type="text" id="firstName" name="firstName" required>
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Family Name (as in passport) *</label>
+                        <input type="text" id="lastName" name="lastName" required>
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="passportNumber">Passport Number *</label>
+                        <input type="text" id="passportNumber" name="passportNumber" required>
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <label>Gender (For rooming purposes) *</label>
+                        <div class="radio-group">
+                            <label class="radio-label">
+                                <input type="radio" name="gender" value="female" required>Female</label>
+                            <label class="radio-label">
+                                <input type="radio" name="gender" value="male">Male</label>
+                        </div>
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="nickname">Calling Name and Nickname *</label>
+                        <input type="text" id="nickname" name="nickname" required>
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="birthDate">Date of Birth *</label>
+                        <input type="date" id="birthDate" name="birthDate" required>
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="address">Home Address *</label>
+                        <input type="text" id="address" name="address" required>
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="roomingFriend">Rooming Friend (Over night campers)</label>
+                        <input type="text" id="roomingFriend" name="roomingFriend">
+                    </div>
+                    <div class="form-group">
+                        <label for="languages">Languages *</label>
+                        <input type="text" id="languages" name="languages" required 
+                               placeholder="Mother language and other languages">
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <label>English Language Skills *</label>
+                        <div class="radio-group">
+                            <label class="radio-label">
+                                <input type="radio" name="englishSkills" value="1" required>1 - Poor</label>
+                            <label class="radio-label">
+                                <input type="radio" name="englishSkills" value="2">2 - Fair</label>
+                            <label class="radio-label">
+                                <input type="radio" name="englishSkills" value="3">3 - Average</label>
+                            <label class="radio-label">
+                                <input type="radio" name="englishSkills" value="4">4 - Good</label>
+                            <label class="radio-label">
+                                <input type="radio" name="englishSkills" value="5">5 - Very Good</label>
+                        </div>
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="tshirtSize">T-shirt Size *</label>
+                        <input type="text" id="tshirtSize" name="tshirtSize" required>
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="hatSize">Hat Size *</label>
+                        <input type="text" id="hatSize" name="hatSize" required>
+                        <span class="error-message"></span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Guardian Information -->
+            <section class="form-section">
+                <h2>Guardian Information</h2>
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="guardianName">Guardian's Full Name *</label>
+                        <input type="text" id="guardianName" name="guardianName" required>
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="guardianPhone">Guardian's Mobile Phone *</label>
+                        <input type="tel" id="guardianPhone" name="guardianPhone" required>
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="guardianAddress">Guardian's Home Address</label>
+                        <input type="text" id="guardianAddress" name="guardianAddress" 
+                               placeholder="If different from camper's">
+                    </div>
+                    <div class="form-group">
+                        <label for="guardianCampAddress">Guardian's Address During Camp *</label>
+                        <input type="text" id="guardianCampAddress" name="guardianCampAddress" required>
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="secondaryContact">Secondary Contact Details *</label>
+                        <input type="text" id="secondaryContact" name="secondaryContact" required
+                               placeholder="Name, relationship and phone number">
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="emergencyPhone">Emergency Contact Phone *</label>
+                        <input type="tel" id="emergencyPhone" name="emergencyPhone" required>
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="invoicing">Invoicing Address/Email</label>
+                        <input type="text" id="invoicing" name="invoicing" 
+                               placeholder="Skip if already paid in web shop">
+                    </div>
+                </div>
+            </section>
+
+            <!-- Medical Information -->
+            <section class="form-section">
+                <h2>Medical Information</h2>
+                <div class="form-grid">
+                    <div class="form-group full-width">
+                        <label for="allergies">Allergies *</label>
+                        <textarea id="allergies" name="allergies" rows="3" required 
+                            placeholder="Specify products, symptoms and treatment"></textarea>
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="specialDiet">Special Dietary Requirements *</label>
+                        <textarea id="specialDiet" name="specialDiet" rows="3" required></textarea>
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group">
+                        <label>Milk Preference *</label>
+                        <div class="radio-group">
+                            <label class="radio-label">
+                                <input type="radio" name="milkPreference" value="normal" required>
+                                Normal milk is ok
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="milkPreference" value="lowLactose">
+                                Low lactose milk (Hyla) is ok
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="milkPreference" value="lactoseFree">
+                                Lactose free milk is ok
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="milkPreference" value="noMilk">
+                                No milk diet is required
+                            </label>
+                            <span class="error-message"></span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Swimming Ability *</label>
+                        <div class="radio-group">
+                            <label class="radio-label">
+                                <input type="radio" name="swimming" value="notAllowed" required>
+                                Not allowed to swim
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="swimming" value="noExperience">
+                                Allowed but cannot swim
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="swimming" value="beginner">
+                                Allowed but not a good swimmer
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="swimming" value="advanced">
+                                Allowed and is a good swimmer
+                            </label>
+                            <span class="error-message"></span>
+                        </div>
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="additionalInfo">Additional Information *</label>
+                        <textarea id="additionalInfo" name="additionalInfo" rows="3" required
+                            placeholder="Any other facts that might affect the camper's time (e.g., homesickness, bedwetting, sleepwalking, etc.)"></textarea>
+                        <span class="error-message"></span>
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="medications">Medications *</label>
+                        <textarea id="medications" name="medications" rows="3" required
+                            placeholder="List any medications, dosage, and prescribing doctor"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>Over-the-Counter Medication Permission *</label>
+                        <div class="radio-group">
+                            <label class="radio-label">
+                                <input type="radio" name="otcPermission" value="allowed" required>
+                                Yes, allowed if needed
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="otcPermission" value="contact">
+                                Contact guardian first
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="otcPermission" value="notAllowed">
+                                Not allowed
+                            </label>
+                            <span class="error-message"></span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Additional Permissions -->
+            <section class="form-section">
+                <h2>Additional Permissions</h2>
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label>Contact Before Camp? *</label>
+                        <div class="radio-group">
+                            <label class="radio-label">
+                                <input type="radio" name="preContact" value="yes" required>Yes</label>
+                            <label class="radio-label">
+                                <input type="radio" name="preContact" value="no">No</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Day Camp Departure Permission *</label>
+                        <div class="radio-group">
+                            <label class="radio-label">
+                                <input type="radio" name="dayDeparture" value="alone" required>
+                                Allowed to leave alone
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="dayDeparture" value="pickup">
+                                Will be picked up
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="pickupPerson">Pickup Person Details</label>
+                        <input type="text" id="pickupPerson" name="pickupPerson"
+                               placeholder="Who will pick up the camper">
+                    </div>
+                    <div class="form-group">
+                        <label>Photo/Video Permission *</label>
+                        <div class="radio-group">
+                            <label class="radio-label">
+                                <input type="radio" name="mediaPermission" value="bothYes" required>
+                                Both guardian and camper agree
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="mediaPermission" value="no">
+                                No permission granted
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <button type="submit" class="submit-btn">Submit Registration</button>
+
+            <div id="errorBox" style="display: none; color: #dc2626; background: #ffe4e6; padding: 10px; border-radius: 5px; margin-bottom: 20px; font-weight: bold; text-align: center;">
+                <!-- The error message will be inserted here -->
+                Please fill in all required fields.
+            </div>
+            
+        </form>
+    </div>
+    <script src="/regester/main.js"></script>
+</body>
+</html>
