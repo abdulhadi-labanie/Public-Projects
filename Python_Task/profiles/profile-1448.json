@@ -1,0 +1,14 @@
+{
+    "name": "Philip Harris",
+    "companies": [
+        "Facebook",
+        "Netflix",
+        "Google"
+    ],
+    "skills": [
+        "Go",
+        "Rust",
+        "Python",
+        "Ruby"
+    ]
+}

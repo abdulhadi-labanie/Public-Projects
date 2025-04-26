@@ -1,0 +1,16 @@
+{
+    "name": "Phillip Lawrence",
+    "companies": [
+        "Netflix",
+        "Facebook",
+        "Amazon",
+        "Uber"
+    ],
+    "skills": [
+        "JavaScript",
+        "Go",
+        "Rust",
+        "Python",
+        "Ruby"
+    ]
+}

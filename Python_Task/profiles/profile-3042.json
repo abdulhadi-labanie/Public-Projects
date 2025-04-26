@@ -1,0 +1,14 @@
+{
+    "name": "Susan Perry",
+    "companies": [
+        "Amazon",
+        "Facebook",
+        "Netflix",
+        "Uber"
+    ],
+    "skills": [
+        "JavaScript",
+        "Go",
+        "Python"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Sheila Hawkins",
+    "companies": [
+        "Uber",
+        "Google",
+        "Amazon",
+        "Netflix"
+    ],
+    "skills": [
+        "Rust",
+        "Python"
+    ]
+}

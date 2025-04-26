@@ -1,0 +1,13 @@
+{
+    "name": "Mason Peterson",
+    "companies": [
+        "Netflix",
+        "Amazon",
+        "Facebook",
+        "Uber"
+    ],
+    "skills": [
+        "Go",
+        "Rust"
+    ]
+}

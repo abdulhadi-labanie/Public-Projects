@@ -1,0 +1,14 @@
+{
+    "name": "Bruce Gill",
+    "companies": [
+        "Facebook",
+        "Google",
+        "Uber",
+        "Netflix"
+    ],
+    "skills": [
+        "Go",
+        "Rust",
+        "Python"
+    ]
+}

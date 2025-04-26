@@ -1,0 +1,15 @@
+{
+    "name": "Austin Bradley",
+    "companies": [
+        "Netflix",
+        "Amazon",
+        "Uber",
+        "Facebook"
+    ],
+    "skills": [
+        "JavaScript",
+        "Go",
+        "Rust",
+        "Python"
+    ]
+}

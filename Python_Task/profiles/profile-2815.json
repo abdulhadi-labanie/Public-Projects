@@ -1,0 +1,14 @@
+{
+    "name": "Dennis Kelly",
+    "companies": [
+        "Netflix",
+        "Google",
+        "Uber",
+        "Amazon"
+    ],
+    "skills": [
+        "JavaScript",
+        "Rust",
+        "Ruby"
+    ]
+}

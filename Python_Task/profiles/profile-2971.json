@@ -1,0 +1,16 @@
+{
+    "name": "Georgia Dunn",
+    "companies": [
+        "Amazon",
+        "Netflix",
+        "Google",
+        "Facebook"
+    ],
+    "skills": [
+        "JavaScript",
+        "Go",
+        "Rust",
+        "Python",
+        "Ruby"
+    ]
+}

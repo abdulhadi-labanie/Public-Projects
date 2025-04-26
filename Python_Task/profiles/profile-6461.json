@@ -1,0 +1,14 @@
+{
+    "name": "Alicia Burton",
+    "companies": [
+        "Netflix",
+        "Amazon",
+        "Facebook",
+        "Google"
+    ],
+    "skills": [
+        "Go",
+        "Rust",
+        "Ruby"
+    ]
+}

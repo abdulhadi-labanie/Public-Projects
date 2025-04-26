@@ -1,0 +1,15 @@
+{
+    "name": "Mark Chapman",
+    "companies": [
+        "Amazon",
+        "Google",
+        "Uber",
+        "Netflix"
+    ],
+    "skills": [
+        "JavaScript",
+        "Go",
+        "Rust",
+        "Ruby"
+    ]
+}

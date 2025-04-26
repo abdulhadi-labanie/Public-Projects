@@ -1,0 +1,14 @@
+{
+    "name": "Betty Fletcher",
+    "companies": [
+        "Google",
+        "Amazon",
+        "Facebook",
+        "Netflix"
+    ],
+    "skills": [
+        "JavaScript",
+        "Rust",
+        "Ruby"
+    ]
+}

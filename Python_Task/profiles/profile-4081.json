@@ -1,0 +1,14 @@
+{
+    "name": "Trevor Burns",
+    "companies": [
+        "Uber",
+        "Google",
+        "Netflix",
+        "Facebook"
+    ],
+    "skills": [
+        "JavaScript",
+        "Go",
+        "Rust"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "Donald Barnes",
+    "companies": [
+        "Netflix",
+        "Google",
+        "Facebook"
+    ],
+    "skills": [
+        "Go",
+        "Rust"
+    ]
+}

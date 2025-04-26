@@ -1,0 +1,14 @@
+{
+    "name": "Terry Cox",
+    "companies": [
+        "Amazon",
+        "Uber",
+        "Google",
+        "Netflix"
+    ],
+    "skills": [
+        "JavaScript",
+        "Go",
+        "Rust"
+    ]
+}

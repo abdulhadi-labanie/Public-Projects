@@ -1,0 +1,13 @@
+{
+    "name": "Tyler Evans",
+    "companies": [
+        "Facebook",
+        "Netflix",
+        "Amazon",
+        "Uber"
+    ],
+    "skills": [
+        "Rust",
+        "Python"
+    ]
+}

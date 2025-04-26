@@ -1,0 +1,15 @@
+{
+    "name": "Paul Lindsey",
+    "companies": [
+        "Amazon",
+        "Google",
+        "Netflix",
+        "Facebook"
+    ],
+    "skills": [
+        "JavaScript",
+        "Rust",
+        "Python",
+        "Ruby"
+    ]
+}

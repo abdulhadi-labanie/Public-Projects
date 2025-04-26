@@ -1,0 +1,13 @@
+{
+    "name": "Kyle Reed",
+    "companies": [
+        "Netflix",
+        "Amazon",
+        "Facebook"
+    ],
+    "skills": [
+        "Rust",
+        "Python",
+        "Ruby"
+    ]
+}

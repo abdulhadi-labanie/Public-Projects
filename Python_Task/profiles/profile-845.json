@@ -1,0 +1,14 @@
+{
+    "name": "Victor Clark",
+    "companies": [
+        "Google",
+        "Facebook",
+        "Uber",
+        "Netflix"
+    ],
+    "skills": [
+        "JavaScript",
+        "Go",
+        "Ruby"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "George Nelson",
+    "companies": [
+        "Uber",
+        "Google"
+    ],
+    "skills": [
+        "JavaScript",
+        "Go",
+        "Python"
+    ]
+}

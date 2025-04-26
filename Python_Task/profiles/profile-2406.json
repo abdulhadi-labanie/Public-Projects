@@ -1,0 +1,14 @@
+{
+    "name": "Austin Bennett",
+    "companies": [
+        "Amazon",
+        "Google",
+        "Netflix",
+        "Facebook"
+    ],
+    "skills": [
+        "Go",
+        "Rust",
+        "Ruby"
+    ]
+}

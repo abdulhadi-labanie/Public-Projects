@@ -1,0 +1,12 @@
+{
+    "name": "Christopher Daniels",
+    "companies": [
+        "Google",
+        "Facebook",
+        "Netflix"
+    ],
+    "skills": [
+        "Rust",
+        "Python"
+    ]
+}

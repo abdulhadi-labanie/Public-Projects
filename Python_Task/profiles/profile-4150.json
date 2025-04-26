@@ -1,0 +1,14 @@
+{
+    "name": "Philip Henderson",
+    "companies": [
+        "Netflix",
+        "Google",
+        "Amazon",
+        "Uber"
+    ],
+    "skills": [
+        "JavaScript",
+        "Go",
+        "Rust"
+    ]
+}

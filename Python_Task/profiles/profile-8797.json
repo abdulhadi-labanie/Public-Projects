@@ -1,0 +1,13 @@
+{
+    "name": "Thomas Hardy",
+    "companies": [
+        "Google",
+        "Facebook",
+        "Netflix"
+    ],
+    "skills": [
+        "JavaScript",
+        "Go",
+        "Python"
+    ]
+}

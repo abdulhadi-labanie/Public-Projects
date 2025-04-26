@@ -1,0 +1,14 @@
+{
+    "name": "Daniel Price",
+    "companies": [
+        "Netflix",
+        "Amazon",
+        "Google",
+        "Uber"
+    ],
+    "skills": [
+        "JavaScript",
+        "Go",
+        "Python"
+    ]
+}

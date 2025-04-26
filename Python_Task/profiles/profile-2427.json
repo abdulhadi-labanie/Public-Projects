@@ -1,0 +1,16 @@
+{
+    "name": "Howard Moreno",
+    "companies": [
+        "Netflix",
+        "Google",
+        "Uber",
+        "Amazon"
+    ],
+    "skills": [
+        "JavaScript",
+        "Go",
+        "Rust",
+        "Python",
+        "Ruby"
+    ]
+}

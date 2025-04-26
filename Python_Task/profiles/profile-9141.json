@@ -1,0 +1,15 @@
+{
+    "name": "Alicia Bailey",
+    "companies": [
+        "Google",
+        "Amazon",
+        "Netflix",
+        "Uber"
+    ],
+    "skills": [
+        "Go",
+        "Rust",
+        "Python",
+        "Ruby"
+    ]
+}

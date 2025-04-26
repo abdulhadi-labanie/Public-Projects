@@ -1,0 +1,11 @@
+{
+    "name": "Peter Lewis",
+    "companies": [
+        "Google",
+        "Netflix"
+    ],
+    "skills": [
+        "Go",
+        "Rust"
+    ]
+}

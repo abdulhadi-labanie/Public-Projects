@@ -1,0 +1,15 @@
+{
+    "name": "Ethan Doyle",
+    "companies": [
+        "Uber",
+        "Google",
+        "Amazon",
+        "Facebook"
+    ],
+    "skills": [
+        "JavaScript",
+        "Go",
+        "Rust",
+        "Ruby"
+    ]
+}

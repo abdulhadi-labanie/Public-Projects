@@ -1,0 +1,16 @@
+{
+    "name": "Trevor Fuller",
+    "companies": [
+        "Netflix",
+        "Facebook",
+        "Amazon",
+        "Uber"
+    ],
+    "skills": [
+        "JavaScript",
+        "Go",
+        "Rust",
+        "Python",
+        "Ruby"
+    ]
+}

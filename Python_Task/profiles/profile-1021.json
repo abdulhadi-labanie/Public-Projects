@@ -1,0 +1,15 @@
+{
+    "name": "Trevor Moran",
+    "companies": [
+        "Uber",
+        "Netflix",
+        "Amazon"
+    ],
+    "skills": [
+        "JavaScript",
+        "Go",
+        "Rust",
+        "Python",
+        "Ruby"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Aiden Edwards",
+    "companies": [
+        "Netflix",
+        "Uber",
+        "Google",
+        "Facebook"
+    ],
+    "skills": [
+        "Go",
+        "Rust",
+        "Ruby"
+    ]
+}

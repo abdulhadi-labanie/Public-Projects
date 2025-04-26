@@ -1,0 +1,13 @@
+{
+    "name": "Linda Hansen",
+    "companies": [
+        "Google",
+        "Uber",
+        "Amazon",
+        "Facebook"
+    ],
+    "skills": [
+        "Rust",
+        "Python"
+    ]
+}

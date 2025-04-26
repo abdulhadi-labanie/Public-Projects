@@ -1,0 +1,15 @@
+{
+    "name": "Joshua Grant",
+    "companies": [
+        "Google",
+        "Amazon",
+        "Facebook",
+        "Netflix"
+    ],
+    "skills": [
+        "JavaScript",
+        "Go",
+        "Rust",
+        "Ruby"
+    ]
+}

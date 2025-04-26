@@ -1,0 +1,11 @@
+{
+    "name": "Jeremy Boyd",
+    "companies": [
+        "Netflix",
+        "Facebook"
+    ],
+    "skills": [
+        "Rust",
+        "Ruby"
+    ]
+}

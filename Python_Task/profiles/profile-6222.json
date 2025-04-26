@@ -1,0 +1,13 @@
+{
+    "name": "Vincent Hardy",
+    "companies": [
+        "Google",
+        "Amazon",
+        "Uber",
+        "Netflix"
+    ],
+    "skills": [
+        "JavaScript",
+        "Rust"
+    ]
+}

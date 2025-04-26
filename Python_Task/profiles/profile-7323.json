@@ -1,0 +1,12 @@
+{
+    "name": "James Brown",
+    "companies": [
+        "Facebook",
+        "Netflix",
+        "Google"
+    ],
+    "skills": [
+        "JavaScript",
+        "Rust"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Colin Simmons",
+    "companies": [
+        "Google",
+        "Netflix",
+        "Amazon",
+        "Facebook"
+    ],
+    "skills": [
+        "Go",
+        "Rust",
+        "Ruby"
+    ]
+}

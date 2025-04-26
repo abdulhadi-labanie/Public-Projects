@@ -1,0 +1,14 @@
+{
+    "name": "Mike Jones",
+    "companies": [
+        "Amazon",
+        "Netflix",
+        "Facebook",
+        "Google"
+    ],
+    "skills": [
+        "JavaScript",
+        "Rust",
+        "Python"
+    ]
+}

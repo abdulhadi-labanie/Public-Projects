@@ -1,0 +1,14 @@
+{
+    "name": "Molly Mack",
+    "companies": [
+        "Uber",
+        "Netflix",
+        "Facebook",
+        "Google"
+    ],
+    "skills": [
+        "JavaScript",
+        "Go",
+        "Rust"
+    ]
+}

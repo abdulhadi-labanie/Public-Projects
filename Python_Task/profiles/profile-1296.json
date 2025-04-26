@@ -1,0 +1,16 @@
+{
+    "name": "Nicholas Mendoza",
+    "companies": [
+        "Google",
+        "Facebook",
+        "Uber",
+        "Amazon"
+    ],
+    "skills": [
+        "JavaScript",
+        "Go",
+        "Rust",
+        "Python",
+        "Ruby"
+    ]
+}

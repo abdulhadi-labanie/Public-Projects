@@ -1,0 +1,14 @@
+{
+    "name": "George Sullivan",
+    "companies": [
+        "Google",
+        "Amazon",
+        "Uber",
+        "Netflix"
+    ],
+    "skills": [
+        "JavaScript",
+        "Go",
+        "Ruby"
+    ]
+}

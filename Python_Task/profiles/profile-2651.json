@@ -1,0 +1,16 @@
+{
+    "name": "Cameron Little",
+    "companies": [
+        "Netflix",
+        "Google",
+        "Uber",
+        "Facebook"
+    ],
+    "skills": [
+        "JavaScript",
+        "Go",
+        "Rust",
+        "Python",
+        "Ruby"
+    ]
+}

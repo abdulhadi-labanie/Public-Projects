@@ -1,0 +1,16 @@
+{
+    "name": "John Clayton",
+    "companies": [
+        "Google",
+        "Amazon",
+        "Facebook",
+        "Netflix"
+    ],
+    "skills": [
+        "JavaScript",
+        "Go",
+        "Rust",
+        "Python",
+        "Ruby"
+    ]
+}

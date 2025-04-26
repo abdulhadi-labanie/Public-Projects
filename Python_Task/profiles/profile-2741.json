@@ -1,0 +1,15 @@
+{
+    "name": "Doris Sanders",
+    "companies": [
+        "Uber",
+        "Netflix",
+        "Amazon",
+        "Facebook"
+    ],
+    "skills": [
+        "JavaScript",
+        "Rust",
+        "Python",
+        "Ruby"
+    ]
+}

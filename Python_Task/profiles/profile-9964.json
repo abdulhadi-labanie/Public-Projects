@@ -1,0 +1,16 @@
+{
+    "name": "Harold McGee",
+    "companies": [
+        "Amazon",
+        "Netflix",
+        "Google",
+        "Facebook"
+    ],
+    "skills": [
+        "JavaScript",
+        "Go",
+        "Rust",
+        "Python",
+        "Ruby"
+    ]
+}

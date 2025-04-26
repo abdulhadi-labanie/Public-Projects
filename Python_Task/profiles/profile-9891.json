@@ -1,0 +1,12 @@
+{
+    "name": "Arthur Duncan",
+    "companies": [
+        "Amazon",
+        "Facebook",
+        "Netflix"
+    ],
+    "skills": [
+        "Go",
+        "Rust"
+    ]
+}

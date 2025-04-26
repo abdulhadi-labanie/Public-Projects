@@ -1,0 +1,16 @@
+{
+    "name": "Kyle Turner",
+    "companies": [
+        "Facebook",
+        "Amazon",
+        "Netflix",
+        "Google"
+    ],
+    "skills": [
+        "JavaScript",
+        "Go",
+        "Rust",
+        "Python",
+        "Ruby"
+    ]
+}

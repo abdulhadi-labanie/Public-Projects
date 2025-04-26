@@ -1,0 +1,12 @@
+{
+    "name": "Carl Reyes",
+    "companies": [
+        "Netflix",
+        "Google",
+        "Amazon",
+        "Facebook"
+    ],
+    "skills": [
+        "Ruby"
+    ]
+}

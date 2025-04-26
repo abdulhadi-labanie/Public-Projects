@@ -1,0 +1,12 @@
+{
+    "name": "Fiona Jones",
+    "companies": [
+        "Facebook",
+        "Netflix"
+    ],
+    "skills": [
+        "JavaScript",
+        "Rust",
+        "Ruby"
+    ]
+}

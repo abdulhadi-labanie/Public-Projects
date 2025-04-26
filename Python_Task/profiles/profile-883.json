@@ -1,0 +1,15 @@
+{
+    "name": "Marie Burke",
+    "companies": [
+        "Netflix",
+        "Amazon",
+        "Google"
+    ],
+    "skills": [
+        "JavaScript",
+        "Go",
+        "Rust",
+        "Python",
+        "Ruby"
+    ]
+}

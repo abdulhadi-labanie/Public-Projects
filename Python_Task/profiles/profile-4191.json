@@ -1,0 +1,12 @@
+{
+    "name": "Nancy Barrett",
+    "companies": [
+        "Google",
+        "Facebook",
+        "Netflix",
+        "Amazon"
+    ],
+    "skills": [
+        "Rust"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Christopher Collins",
+    "companies": [
+        "Netflix",
+        "Facebook",
+        "Amazon",
+        "Google"
+    ],
+    "skills": [
+        "Go",
+        "Rust",
+        "Ruby"
+    ]
+}

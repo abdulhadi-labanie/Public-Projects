@@ -1,0 +1,16 @@
+{
+    "name": "Timothy Caldwell",
+    "companies": [
+        "Google",
+        "Netflix",
+        "Amazon",
+        "Facebook"
+    ],
+    "skills": [
+        "JavaScript",
+        "Go",
+        "Rust",
+        "Python",
+        "Ruby"
+    ]
+}

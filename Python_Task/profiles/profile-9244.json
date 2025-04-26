@@ -1,0 +1,14 @@
+{
+    "name": "Kimberly Rodriguez",
+    "companies": [
+        "Facebook",
+        "Uber",
+        "Netflix",
+        "Google"
+    ],
+    "skills": [
+        "Go",
+        "Rust",
+        "Ruby"
+    ]
+}

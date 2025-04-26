@@ -1,0 +1,13 @@
+{
+    "name": "Liam Bowman",
+    "companies": [
+        "Facebook",
+        "Amazon",
+        "Uber"
+    ],
+    "skills": [
+        "JavaScript",
+        "Rust",
+        "Ruby"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Lucy Lloyd",
+    "companies": [
+        "Uber",
+        "Netflix"
+    ],
+    "skills": [
+        "Go",
+        "Rust",
+        "Python",
+        "Ruby"
+    ]
+}

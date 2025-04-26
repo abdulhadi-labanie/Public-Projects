@@ -1,0 +1,14 @@
+{
+    "name": "Lawrence Erickson",
+    "companies": [
+        "Netflix",
+        "Uber",
+        "Amazon",
+        "Facebook"
+    ],
+    "skills": [
+        "JavaScript",
+        "Rust",
+        "Ruby"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Roger Dunn",
+    "companies": [
+        "Netflix",
+        "Amazon"
+    ],
+    "skills": [
+        "Rust",
+        "Python"
+    ]
+}

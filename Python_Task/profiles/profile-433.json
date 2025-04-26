@@ -1,0 +1,11 @@
+{
+    "name": "Derek Hunt",
+    "companies": [
+        "Amazon",
+        "Netflix"
+    ],
+    "skills": [
+        "Go",
+        "Rust"
+    ]
+}

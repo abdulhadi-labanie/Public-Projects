@@ -1,0 +1,13 @@
+{
+    "name": "Steve Reyes",
+    "companies": [
+        "Google",
+        "Uber",
+        "Amazon",
+        "Netflix"
+    ],
+    "skills": [
+        "JavaScript",
+        "Go"
+    ]
+}

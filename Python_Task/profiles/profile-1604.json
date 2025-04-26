@@ -1,0 +1,14 @@
+{
+    "name": "Victor Foster",
+    "companies": [
+        "Uber",
+        "Amazon",
+        "Netflix",
+        "Facebook"
+    ],
+    "skills": [
+        "JavaScript",
+        "Rust",
+        "Ruby"
+    ]
+}

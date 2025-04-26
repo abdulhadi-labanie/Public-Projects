@@ -1,0 +1,16 @@
+{
+    "name": "Henry Medina",
+    "companies": [
+        "Facebook",
+        "Uber",
+        "Amazon",
+        "Netflix"
+    ],
+    "skills": [
+        "JavaScript",
+        "Go",
+        "Rust",
+        "Python",
+        "Ruby"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Jane Ferguson",
+    "companies": [
+        "Netflix",
+        "Google"
+    ],
+    "skills": [
+        "Go",
+        "Rust"
+    ]
+}

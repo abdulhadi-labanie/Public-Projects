@@ -1,0 +1,16 @@
+{
+    "name": "Jacob Conner",
+    "companies": [
+        "Google",
+        "Netflix",
+        "Uber",
+        "Amazon"
+    ],
+    "skills": [
+        "JavaScript",
+        "Go",
+        "Rust",
+        "Python",
+        "Ruby"
+    ]
+}

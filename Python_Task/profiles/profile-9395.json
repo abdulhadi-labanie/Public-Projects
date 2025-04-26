@@ -1,0 +1,15 @@
+{
+    "name": "Brenda Fleming",
+    "companies": [
+        "Netflix",
+        "Facebook",
+        "Amazon",
+        "Google"
+    ],
+    "skills": [
+        "Go",
+        "Rust",
+        "Python",
+        "Ruby"
+    ]
+}

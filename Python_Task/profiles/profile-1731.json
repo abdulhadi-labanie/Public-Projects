@@ -1,0 +1,15 @@
+{
+    "name": "Annabelle Cain",
+    "companies": [
+        "Netflix",
+        "Facebook",
+        "Amazon",
+        "Google"
+    ],
+    "skills": [
+        "JavaScript",
+        "Rust",
+        "Python",
+        "Ruby"
+    ]
+}

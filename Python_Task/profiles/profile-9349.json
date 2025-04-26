@@ -1,0 +1,16 @@
+{
+    "name": "Harold Gonzalez",
+    "companies": [
+        "Uber",
+        "Facebook",
+        "Google",
+        "Amazon"
+    ],
+    "skills": [
+        "JavaScript",
+        "Go",
+        "Rust",
+        "Python",
+        "Ruby"
+    ]
+}

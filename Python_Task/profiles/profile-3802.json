@@ -1,0 +1,11 @@
+{
+    "name": "Randy McGee",
+    "companies": [
+        "Google",
+        "Netflix"
+    ],
+    "skills": [
+        "Go",
+        "Rust"
+    ]
+}

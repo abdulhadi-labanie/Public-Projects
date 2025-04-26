@@ -1,0 +1,15 @@
+{
+    "name": "Colin Barrett",
+    "companies": [
+        "Google",
+        "Uber",
+        "Amazon",
+        "Netflix"
+    ],
+    "skills": [
+        "JavaScript",
+        "Go",
+        "Rust",
+        "Ruby"
+    ]
+}

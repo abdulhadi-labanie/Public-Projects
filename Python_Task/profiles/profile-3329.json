@@ -1,0 +1,14 @@
+{
+    "name": "Gary Fleming",
+    "companies": [
+        "Google",
+        "Facebook",
+        "Uber",
+        "Amazon"
+    ],
+    "skills": [
+        "JavaScript",
+        "Go",
+        "Python"
+    ]
+}

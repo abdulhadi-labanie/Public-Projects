@@ -1,0 +1,14 @@
+{
+    "name": "Terry Conner",
+    "companies": [
+        "Amazon",
+        "Google",
+        "Facebook",
+        "Netflix"
+    ],
+    "skills": [
+        "Rust",
+        "Python",
+        "Ruby"
+    ]
+}

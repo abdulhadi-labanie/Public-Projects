@@ -1,0 +1,12 @@
+{
+    "name": "Ronald Williams",
+    "companies": [
+        "Uber",
+        "Netflix"
+    ],
+    "skills": [
+        "JavaScript",
+        "Go",
+        "Rust"
+    ]
+}

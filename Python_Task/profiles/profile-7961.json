@@ -1,0 +1,14 @@
+{
+    "name": "Dennis Gordon",
+    "companies": [
+        "Google",
+        "Amazon",
+        "Facebook"
+    ],
+    "skills": [
+        "JavaScript",
+        "Go",
+        "Rust",
+        "Python"
+    ]
+}

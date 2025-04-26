@@ -1,0 +1,13 @@
+{
+    "name": "Robert Bishop",
+    "companies": [
+        "Facebook",
+        "Amazon",
+        "Uber",
+        "Netflix"
+    ],
+    "skills": [
+        "Rust",
+        "Python"
+    ]
+}

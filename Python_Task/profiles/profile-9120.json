@@ -1,0 +1,16 @@
+{
+    "name": "Tiffany Richardson",
+    "companies": [
+        "Amazon",
+        "Uber",
+        "Netflix",
+        "Google"
+    ],
+    "skills": [
+        "JavaScript",
+        "Go",
+        "Rust",
+        "Python",
+        "Ruby"
+    ]
+}

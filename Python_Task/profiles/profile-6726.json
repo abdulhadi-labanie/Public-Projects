@@ -1,0 +1,16 @@
+{
+    "name": "Carlos Torres",
+    "companies": [
+        "Amazon",
+        "Facebook",
+        "Google",
+        "Netflix"
+    ],
+    "skills": [
+        "JavaScript",
+        "Go",
+        "Rust",
+        "Python",
+        "Ruby"
+    ]
+}

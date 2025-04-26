@@ -1,0 +1,15 @@
+{
+    "name": "Cody Dixon",
+    "companies": [
+        "Amazon",
+        "Netflix",
+        "Google",
+        "Uber"
+    ],
+    "skills": [
+        "Go",
+        "Rust",
+        "Python",
+        "Ruby"
+    ]
+}

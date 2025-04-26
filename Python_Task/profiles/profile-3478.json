@@ -1,0 +1,13 @@
+{
+    "name": "Tammy Perez",
+    "companies": [
+        "Amazon",
+        "Netflix",
+        "Uber",
+        "Google"
+    ],
+    "skills": [
+        "JavaScript",
+        "Python"
+    ]
+}

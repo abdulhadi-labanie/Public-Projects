@@ -1,0 +1,14 @@
+{
+    "name": "Helen Christensen",
+    "companies": [
+        "Netflix",
+        "Google",
+        "Amazon"
+    ],
+    "skills": [
+        "JavaScript",
+        "Go",
+        "Rust",
+        "Ruby"
+    ]
+}

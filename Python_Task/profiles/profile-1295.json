@@ -1,0 +1,14 @@
+{
+    "name": "Kayla Garcia",
+    "companies": [
+        "Amazon",
+        "Netflix",
+        "Google",
+        "Uber"
+    ],
+    "skills": [
+        "Go",
+        "Rust",
+        "Ruby"
+    ]
+}

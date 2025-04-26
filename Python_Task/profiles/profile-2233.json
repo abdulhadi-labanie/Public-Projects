@@ -1,0 +1,14 @@
+{
+    "name": "Jean Hill",
+    "companies": [
+        "Netflix",
+        "Amazon",
+        "Google",
+        "Facebook"
+    ],
+    "skills": [
+        "JavaScript",
+        "Rust",
+        "Ruby"
+    ]
+}

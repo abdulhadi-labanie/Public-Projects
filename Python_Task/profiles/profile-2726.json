@@ -1,0 +1,15 @@
+{
+    "name": "Norman Becker",
+    "companies": [
+        "Netflix",
+        "Uber",
+        "Amazon",
+        "Google"
+    ],
+    "skills": [
+        "JavaScript",
+        "Rust",
+        "Python",
+        "Ruby"
+    ]
+}

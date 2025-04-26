@@ -1,0 +1,14 @@
+{
+    "name": "Daniel Moore",
+    "companies": [
+        "Uber",
+        "Google",
+        "Facebook",
+        "Netflix"
+    ],
+    "skills": [
+        "Go",
+        "Rust",
+        "Python"
+    ]
+}

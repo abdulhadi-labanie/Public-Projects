@@ -1,0 +1,14 @@
+{
+    "name": "Derek Hayes",
+    "companies": [
+        "Uber",
+        "Netflix",
+        "Amazon",
+        "Google"
+    ],
+    "skills": [
+        "Go",
+        "Rust",
+        "Ruby"
+    ]
+}

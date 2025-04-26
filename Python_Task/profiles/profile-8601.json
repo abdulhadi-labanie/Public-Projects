@@ -1,0 +1,13 @@
+{
+    "name": "Patrick Erickson",
+    "companies": [
+        "Amazon",
+        "Netflix",
+        "Google"
+    ],
+    "skills": [
+        "Rust",
+        "Python",
+        "Ruby"
+    ]
+}

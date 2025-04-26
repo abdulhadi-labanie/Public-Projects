@@ -1,0 +1,12 @@
+{
+    "name": "Arthur Flores",
+    "companies": [
+        "Amazon",
+        "Netflix",
+        "Uber"
+    ],
+    "skills": [
+        "JavaScript",
+        "Rust"
+    ]
+}

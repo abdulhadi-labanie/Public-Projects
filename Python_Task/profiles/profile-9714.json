@@ -1,0 +1,11 @@
+{
+    "name": "Albert Bates",
+    "companies": [
+        "Google",
+        "Netflix",
+        "Facebook"
+    ],
+    "skills": [
+        "Rust"
+    ]
+}

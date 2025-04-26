@@ -1,0 +1,14 @@
+{
+    "name": "Tyler Perez",
+    "companies": [
+        "Amazon",
+        "Uber",
+        "Facebook",
+        "Google"
+    ],
+    "skills": [
+        "Go",
+        "Rust",
+        "Python"
+    ]
+}

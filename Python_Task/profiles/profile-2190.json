@@ -1,0 +1,14 @@
+{
+    "name": "Mary Hicks",
+    "companies": [
+        "Netflix",
+        "Facebook",
+        "Uber",
+        "Amazon"
+    ],
+    "skills": [
+        "JavaScript",
+        "Go",
+        "Rust"
+    ]
+}

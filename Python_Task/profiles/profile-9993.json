@@ -1,0 +1,13 @@
+{
+    "name": "Joe Johnston",
+    "companies": [
+        "Amazon",
+        "Facebook",
+        "Netflix",
+        "Uber"
+    ],
+    "skills": [
+        "JavaScript",
+        "Rust"
+    ]
+}

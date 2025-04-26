@@ -1,0 +1,15 @@
+{
+    "name": "Connor Lowe",
+    "companies": [
+        "Netflix",
+        "Amazon",
+        "Uber",
+        "Google"
+    ],
+    "skills": [
+        "JavaScript",
+        "Go",
+        "Rust",
+        "Ruby"
+    ]
+}

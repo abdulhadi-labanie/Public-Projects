@@ -1,0 +1,15 @@
+{
+    "name": "Gloria Roberts",
+    "companies": [
+        "Uber",
+        "Netflix",
+        "Google",
+        "Facebook"
+    ],
+    "skills": [
+        "JavaScript",
+        "Rust",
+        "Python",
+        "Ruby"
+    ]
+}

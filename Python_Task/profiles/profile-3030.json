@@ -1,0 +1,13 @@
+{
+    "name": "Gavin Moreno",
+    "companies": [
+        "Facebook",
+        "Amazon",
+        "Netflix"
+    ],
+    "skills": [
+        "Go",
+        "Rust",
+        "Python"
+    ]
+}

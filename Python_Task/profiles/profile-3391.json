@@ -1,0 +1,14 @@
+{
+    "name": "George Mitchell",
+    "companies": [
+        "Netflix",
+        "Google",
+        "Facebook",
+        "Uber"
+    ],
+    "skills": [
+        "Go",
+        "Python",
+        "Ruby"
+    ]
+}

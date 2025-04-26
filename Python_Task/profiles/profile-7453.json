@@ -1,0 +1,13 @@
+{
+    "name": "Phillip Wright",
+    "companies": [
+        "Netflix",
+        "Amazon"
+    ],
+    "skills": [
+        "JavaScript",
+        "Rust",
+        "Python",
+        "Ruby"
+    ]
+}

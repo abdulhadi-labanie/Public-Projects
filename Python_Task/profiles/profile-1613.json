@@ -1,0 +1,15 @@
+{
+    "name": "Mark Dawson",
+    "companies": [
+        "Netflix",
+        "Google",
+        "Uber",
+        "Facebook"
+    ],
+    "skills": [
+        "JavaScript",
+        "Go",
+        "Rust",
+        "Python"
+    ]
+}

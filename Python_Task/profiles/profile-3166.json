@@ -1,0 +1,12 @@
+{
+    "name": "Roger Powell",
+    "companies": [
+        "Facebook",
+        "Amazon",
+        "Netflix"
+    ],
+    "skills": [
+        "Rust",
+        "Python"
+    ]
+}

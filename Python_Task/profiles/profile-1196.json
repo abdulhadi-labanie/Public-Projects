@@ -1,0 +1,13 @@
+{
+    "name": "Noah Peterson",
+    "companies": [
+        "Amazon",
+        "Facebook",
+        "Uber",
+        "Netflix"
+    ],
+    "skills": [
+        "JavaScript",
+        "Rust"
+    ]
+}

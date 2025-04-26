@@ -1,0 +1,14 @@
+{
+    "name": "Todd Leonard",
+    "companies": [
+        "Uber",
+        "Google",
+        "Facebook",
+        "Netflix"
+    ],
+    "skills": [
+        "JavaScript",
+        "Go",
+        "Ruby"
+    ]
+}

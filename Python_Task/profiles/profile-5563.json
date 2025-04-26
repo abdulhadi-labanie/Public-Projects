@@ -1,0 +1,16 @@
+{
+    "name": "Faith Cain",
+    "companies": [
+        "Google",
+        "Uber",
+        "Facebook",
+        "Amazon"
+    ],
+    "skills": [
+        "JavaScript",
+        "Go",
+        "Rust",
+        "Python",
+        "Ruby"
+    ]
+}

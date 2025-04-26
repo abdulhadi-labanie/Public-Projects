@@ -1,0 +1,15 @@
+{
+    "name": "Jason Flores",
+    "companies": [
+        "Netflix",
+        "Uber",
+        "Amazon",
+        "Facebook"
+    ],
+    "skills": [
+        "JavaScript",
+        "Go",
+        "Rust",
+        "Ruby"
+    ]
+}

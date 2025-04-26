@@ -1,0 +1,12 @@
+{
+    "name": "Aiden McGee",
+    "companies": [
+        "Netflix",
+        "Amazon",
+        "Uber"
+    ],
+    "skills": [
+        "Rust",
+        "Ruby"
+    ]
+}

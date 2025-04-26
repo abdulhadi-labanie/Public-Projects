@@ -1,0 +1,11 @@
+{
+    "name": "Mike Griffin",
+    "companies": [
+        "Netflix",
+        "Facebook",
+        "Google"
+    ],
+    "skills": [
+        "Rust"
+    ]
+}

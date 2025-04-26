@@ -1,0 +1,14 @@
+{
+    "name": "Sheila Perry",
+    "companies": [
+        "Facebook",
+        "Amazon",
+        "Google",
+        "Netflix"
+    ],
+    "skills": [
+        "JavaScript",
+        "Rust",
+        "Python"
+    ]
+}

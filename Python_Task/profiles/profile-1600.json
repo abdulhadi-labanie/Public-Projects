@@ -1,0 +1,14 @@
+{
+    "name": "Jeffrey Moody",
+    "companies": [
+        "Amazon",
+        "Uber",
+        "Facebook",
+        "Netflix"
+    ],
+    "skills": [
+        "JavaScript",
+        "Rust",
+        "Ruby"
+    ]
+}

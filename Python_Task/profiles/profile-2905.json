@@ -1,0 +1,14 @@
+{
+    "name": "George Turner",
+    "companies": [
+        "Facebook",
+        "Netflix",
+        "Google",
+        "Uber"
+    ],
+    "skills": [
+        "Go",
+        "Rust",
+        "Python"
+    ]
+}

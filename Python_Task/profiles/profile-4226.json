@@ -1,0 +1,14 @@
+{
+    "name": "Thomas Smith",
+    "companies": [
+        "Amazon",
+        "Google",
+        "Uber",
+        "Netflix"
+    ],
+    "skills": [
+        "JavaScript",
+        "Go",
+        "Ruby"
+    ]
+}

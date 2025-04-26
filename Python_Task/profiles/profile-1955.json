@@ -1,0 +1,14 @@
+{
+    "name": "Kayla Lloyd",
+    "companies": [
+        "Amazon",
+        "Google",
+        "Uber",
+        "Netflix"
+    ],
+    "skills": [
+        "Rust",
+        "Python",
+        "Ruby"
+    ]
+}

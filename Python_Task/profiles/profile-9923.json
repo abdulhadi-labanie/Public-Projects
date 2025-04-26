@@ -1,0 +1,14 @@
+{
+    "name": "Anna Garcia",
+    "companies": [
+        "Netflix",
+        "Uber",
+        "Google",
+        "Amazon"
+    ],
+    "skills": [
+        "JavaScript",
+        "Rust",
+        "Ruby"
+    ]
+}

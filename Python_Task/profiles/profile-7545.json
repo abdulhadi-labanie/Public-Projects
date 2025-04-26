@@ -1,0 +1,15 @@
+{
+    "name": "Christian Diaz",
+    "companies": [
+        "Uber",
+        "Netflix",
+        "Amazon",
+        "Google"
+    ],
+    "skills": [
+        "JavaScript",
+        "Go",
+        "Rust",
+        "Ruby"
+    ]
+}

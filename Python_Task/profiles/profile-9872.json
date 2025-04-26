@@ -1,0 +1,15 @@
+{
+    "name": "Liam Foster",
+    "companies": [
+        "Google",
+        "Amazon",
+        "Facebook",
+        "Uber"
+    ],
+    "skills": [
+        "JavaScript",
+        "Go",
+        "Rust",
+        "Ruby"
+    ]
+}

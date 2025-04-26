@@ -1,0 +1,14 @@
+{
+    "name": "Phillip Burton",
+    "companies": [
+        "Facebook",
+        "Amazon",
+        "Uber"
+    ],
+    "skills": [
+        "JavaScript",
+        "Go",
+        "Rust",
+        "Python"
+    ]
+}

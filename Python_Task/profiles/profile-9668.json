@@ -1,0 +1,13 @@
+{
+    "name": "Ethan Chambers",
+    "companies": [
+        "Netflix",
+        "Amazon",
+        "Uber",
+        "Facebook"
+    ],
+    "skills": [
+        "JavaScript",
+        "Ruby"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Leah Hill",
+    "companies": [
+        "Netflix"
+    ],
+    "skills": [
+        "JavaScript",
+        "Go",
+        "Rust"
+    ]
+}

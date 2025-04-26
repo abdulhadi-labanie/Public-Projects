@@ -1,0 +1,11 @@
+{
+    "name": "Harold Robinson",
+    "companies": [
+        "Netflix",
+        "Facebook"
+    ],
+    "skills": [
+        "Go",
+        "Rust"
+    ]
+}

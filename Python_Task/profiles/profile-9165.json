@@ -1,0 +1,14 @@
+{
+    "name": "Joe Cobb",
+    "companies": [
+        "Uber",
+        "Amazon",
+        "Facebook",
+        "Google"
+    ],
+    "skills": [
+        "JavaScript",
+        "Rust",
+        "Python"
+    ]
+}

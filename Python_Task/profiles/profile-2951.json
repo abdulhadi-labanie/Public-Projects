@@ -1,0 +1,14 @@
+{
+    "name": "Isaac Gross",
+    "companies": [
+        "Uber",
+        "Netflix",
+        "Facebook",
+        "Amazon"
+    ],
+    "skills": [
+        "Rust",
+        "Python",
+        "Ruby"
+    ]
+}

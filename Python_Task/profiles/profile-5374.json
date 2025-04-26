@@ -1,0 +1,15 @@
+{
+    "name": "Ethan Fisher",
+    "companies": [
+        "Netflix",
+        "Google",
+        "Facebook",
+        "Amazon"
+    ],
+    "skills": [
+        "JavaScript",
+        "Rust",
+        "Python",
+        "Ruby"
+    ]
+}

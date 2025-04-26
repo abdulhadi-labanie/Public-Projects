@@ -1,0 +1,11 @@
+{
+    "name": "Daniel Moody",
+    "companies": [
+        "Google",
+        "Netflix",
+        "Amazon"
+    ],
+    "skills": [
+        "Rust"
+    ]
+}

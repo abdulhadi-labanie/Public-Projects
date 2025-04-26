@@ -1,0 +1,12 @@
+{
+    "name": "Terry Anderson",
+    "companies": [
+        "Amazon",
+        "Netflix",
+        "Google"
+    ],
+    "skills": [
+        "Rust",
+        "Ruby"
+    ]
+}

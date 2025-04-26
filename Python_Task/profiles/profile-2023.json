@@ -1,0 +1,14 @@
+{
+    "name": "Jeffrey Moody",
+    "companies": [
+        "Amazon",
+        "Uber",
+        "Google",
+        "Facebook"
+    ],
+    "skills": [
+        "JavaScript",
+        "Go",
+        "Python"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Donald Miles",
+    "companies": [
+        "Google",
+        "Uber",
+        "Facebook",
+        "Netflix"
+    ],
+    "skills": [
+        "JavaScript",
+        "Go",
+        "Rust",
+        "Python",
+        "Ruby"
+    ]
+}

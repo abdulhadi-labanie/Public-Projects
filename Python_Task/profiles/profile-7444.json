@@ -1,0 +1,14 @@
+{
+    "name": "Brian Anderson",
+    "companies": [
+        "Google",
+        "Amazon",
+        "Uber",
+        "Facebook"
+    ],
+    "skills": [
+        "JavaScript",
+        "Go",
+        "Ruby"
+    ]
+}

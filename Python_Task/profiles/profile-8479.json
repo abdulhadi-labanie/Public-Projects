@@ -1,0 +1,16 @@
+{
+    "name": "Claire Bennett",
+    "companies": [
+        "Uber",
+        "Google",
+        "Facebook",
+        "Amazon"
+    ],
+    "skills": [
+        "JavaScript",
+        "Go",
+        "Rust",
+        "Python",
+        "Ruby"
+    ]
+}

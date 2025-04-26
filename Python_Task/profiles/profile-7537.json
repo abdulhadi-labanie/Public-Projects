@@ -1,0 +1,14 @@
+{
+    "name": "Gary Burton",
+    "companies": [
+        "Uber",
+        "Amazon",
+        "Google",
+        "Netflix"
+    ],
+    "skills": [
+        "Go",
+        "Rust",
+        "Python"
+    ]
+}

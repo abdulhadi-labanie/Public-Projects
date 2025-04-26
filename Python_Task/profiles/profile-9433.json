@@ -1,0 +1,14 @@
+{
+    "name": "Liam Dunn",
+    "companies": [
+        "Amazon",
+        "Google",
+        "Uber",
+        "Facebook"
+    ],
+    "skills": [
+        "Go",
+        "Rust",
+        "Ruby"
+    ]
+}

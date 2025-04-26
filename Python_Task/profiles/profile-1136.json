@@ -1,0 +1,14 @@
+{
+    "name": "Colin Cook",
+    "companies": [
+        "Netflix",
+        "Facebook",
+        "Google",
+        "Amazon"
+    ],
+    "skills": [
+        "JavaScript",
+        "Rust",
+        "Ruby"
+    ]
+}

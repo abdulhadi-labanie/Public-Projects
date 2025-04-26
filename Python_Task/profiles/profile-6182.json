@@ -1,0 +1,13 @@
+{
+    "name": "Sheila Mann",
+    "companies": [
+        "Amazon",
+        "Uber",
+        "Netflix",
+        "Facebook"
+    ],
+    "skills": [
+        "JavaScript",
+        "Go"
+    ]
+}

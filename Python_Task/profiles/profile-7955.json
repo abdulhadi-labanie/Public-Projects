@@ -1,0 +1,15 @@
+{
+    "name": "Todd Reyes",
+    "companies": [
+        "Facebook",
+        "Netflix",
+        "Amazon",
+        "Google"
+    ],
+    "skills": [
+        "JavaScript",
+        "Go",
+        "Rust",
+        "Python"
+    ]
+}
